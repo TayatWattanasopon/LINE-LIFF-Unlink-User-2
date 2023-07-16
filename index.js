@@ -43,7 +43,7 @@ async function main() {
       liff.login();
     }
   } else {
-    btnLink.style.display = 'block';
+    btnUnlink.style.display = 'block';
     getUserProfile();
   }
 }
@@ -100,8 +100,8 @@ async function scanCode() {
 //   window.location.reload();
 // };
 
-btnLink.onclick = () => {
-  sendMsg('Link User');
+btnUnlink.onclick = () => {
+  sendMsg('Unlink User');
 };
 
 // btnUnlink.onclick = () => {
